@@ -1,4 +1,10 @@
-This is a description in draft form of how I got here.
+This is a description in draft form of how I got here. You do not have to read it. The repository comes with a Makefile which you can use. `make watch` will check with `make -q` if something needs to be done and if so runs `make`. If you want to use this template make sure, that you have installed:
+- R -- add to PATH if in win
+    -  knitr
+    -  wahaniMiscs: `devtools::install_github("wahani/wahaniMiscs")`
+- pandoc -- add to PATH if in win
+- make -- add to PATH if in win
+- Latex
 
 # Resources
 
