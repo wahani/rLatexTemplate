@@ -79,7 +79,22 @@ Use
 \addbibresource{Datenbank.bib}
 ```
 
-for adding your bib database, biber has problems with bibliography...
+for adding your bib database, biber has problems with `bibliography`... This is all I set:
+
+```
+\usepackage[
+natbib=true, % for \citep to work and more...
+backend=biber,
+style=authoryear
+]{biblatex}
+\addbibresource{Bibliography.bib}
+```
+
+In the `text/Bibliography.tex` I added
+
+```
+\printbibliography
+```
 
 ## For Code-Blocks
 
