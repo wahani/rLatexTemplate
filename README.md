@@ -11,7 +11,7 @@ This is a description in draft form of how I got here. You do not have to read i
 - [R/Latex Makefile](http://robjhyndman.com/hyndsight/makefiles/)
 - Latex thesis-template I use (http://www.latextemplates.com/template/classicthesis-typographic-thesis)
     - UTF-8 instead latin9
-    - biblatex instead of natbib
+    - biblatex instead of natbib go [here](https://de.sharelatex.com/learn/Biblatex_bibliography_styles) to see your options
     - added things for graphics and code as below
   
 # From *.rmd to *.md
